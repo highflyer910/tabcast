@@ -1,21 +1,28 @@
-# co070440abe422a88905f0b95
+# Tabcast
 
-Quick start:
+Tabcast is a Chrome extension that provides you with useful information every time you open a new tab in your browser.
 
-```
-$ npm install
-$ npm start
-````
+### How it works
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+Tabcast is built using:
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+- Vite.js
+- Unsplash API
+- OpenWeatherMap API
+- Coingecko API
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+## Installation
 
-Happy Coding!
+1. Clone repo.
+2. Run `npm install`
+3. Build the extension for production using `npm run build`
+4. To install the extension in Chrome, open `chrome://extensions/` in the browser, activate _Developer mode_ using the toggle in the top right-hand corner of the page, click _Load unpacked_ and select to `tabcast/dist`
+5. Open a new tab in Chrome and voila!
+
+### Feedback and Contributions
+
+If you have any feedback, suggestions, or bug reports, please feel free to open an issue or submit a pull request. Contributions are welcome and appreciated.
+
+### License
+
+MIT
