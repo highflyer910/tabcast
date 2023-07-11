@@ -2,7 +2,7 @@
     "manifest_version": 3,
     "name": "Tabcast",
     "version": "1.0.0",
-    "description": "Chrome Extension that displays time, weather information, cryptocurrency prices, and stunning backgrounds. Requires geolocation permission to provide accurate weather data based on the user's location.",
+    "description": "Chrome Extension displays weather requires geolocation permission to provide weather data based on the user's location.",
     "action": {
         "default_icon": "images/icon.png"
     },
