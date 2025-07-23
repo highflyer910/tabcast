@@ -2,7 +2,7 @@ async function fetchUnsplashPhoto() {
 	try {
 		const [unsplashRes, coingeckoRes] = await Promise.all([
 			fetch("https://apis.scrimba.com/unsplash/photos/random?orientation=landscape&query=nature"),
-			fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
+			fetch("https://api.coingecko.com/api/v3/coins/pi-network")
 		]);
 
 		const unsplashData = await unsplashRes.json();
@@ -22,7 +22,8 @@ async function fetchUnsplashPhoto() {
 			<p>👆: $${market_data.high_24h.usd}</p>
 			<p>👇: $${market_data.low_24h.usd}</p>
 		`;
-		} catch (error) {
+		} 
+	catch (error) {
 		console.error(error);
 	}
 }
